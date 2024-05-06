@@ -1,0 +1,394 @@
+/* Resetting default styles and setting body properties */
+body {
+  overflow-x: hidden; /* Hide horizontal overflow */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+/* Media query for screens larger than 992px */
+@media (min-width: 992px) {
+  /* Navbar styles */
+  .navbar {
+    width: 100%; /* Full width */
+    padding: 0; /* Remove padding */
+  }
+  /* Header one styles */
+  .header-one {
+    width: 100%; /* Full width */
+    background-color: rgb(90, 193, 173); /* Set background color */
+    display: flex; /* Use flexbox */
+  }
+  /* Header block styles */
+  .hdr-one-block,
+  .hdr-two-block {
+    width: 100%; /* Full width */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Space items evenly */
+    margin: 0 10%; /* Margin */
+  }
+  /* Header one block styles */
+  .hdr-one-block {
+    padding: 10px; /* Padding */
+  }
+  /* Header business contact styles */
+  .hdr-bs-contact {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+  }
+  /* Header location container styles */
+  .hdr-location-cnt {
+    display: flex; /* Use flexbox */
+  }
+  /* Header mail container styles */
+  .hdr-mail-cnt {
+    display: flex; /* Use flexbox */
+    margin-left: 50px; /* Margin */
+  }
+  /* Header mail link styles */
+  .hdr-mail-link {
+    margin-left: 5px; /* Margin */
+  }
+  /* Header link styles */
+  .hdr-link {
+    text-decoration: none; /* Remove underline */
+    font-size: 14px; /* Font size */
+    font-weight: 400; /* Font weight */
+    color: white; /* Text color */
+  }
+  /* Header link hover styles */
+  .hdr-link:hover {
+    color: white; /* Text color on hover */
+  }
+  /* Header social media container styles */
+  .hdr-social-media-cnt {
+    display: flex; /* Use flexbox */
+    justify-content: flex-end; /* Align items to the end */
+  }
+  /* Header social media item styles */
+  .hdr-sm-item {
+    padding: 0 10px; /* Padding */
+  }
+  /* Header two styles */
+  .header-two {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+    width: 100%; /* Full width */
+  }
+  /* Brand logo styles */
+  .brand-logo {
+    width: 80px; /* Width */
+  }
+  /* Navbar brand container styles */
+  .navbar-brand-cnt {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+  }
+  /* Navbar brand text container styles */
+  .navbar-brand-txt-cnt {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Column layout */
+  }
+  /* Brand text styles */
+  .brand-txt {
+    font-size: 20px; /* Font size */
+    font-weight: 700; /* Font weight */
+    color: rgb(90, 193, 173); /* Text color */
+    padding-bottom: 0; /* Padding */
+    margin: 0; /* Margin */
+  }
+  /* Brand text hover styles */
+  .brand-txt:hover {
+    color: rgb(90, 193, 173); /* Text color on hover */
+  }
+  /* Brand sub text styles */
+  .brand-sub-txt {
+    text-transform: uppercase; /* Uppercase text */
+    font-size: 8px; /* Font size */
+    font-weight: 700; /* Font weight */
+    color: rgba(77, 77, 77, 0.775); /* Text color */
+  }
+  /* Navbar collapse styles */
+  .navbar-collapse {
+    margin: 0 auto; /* Margin */
+  }
+  /* Navbar navigation styles */
+  .navbar-nav {
+    width: 70%; /* Width */
+    margin: 0 10px 0 auto; /* Margin */
+    box-sizing: border-box; /* Border box sizing */
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space items evenly */
+  }
+  /* Navbar link styles */
+  .nav-link {
+    font-size: 16px; /* Font size */
+    font-weight: 500; /* Font weight */
+    color: rgb(118, 136, 148); /* Text color */
+  }
+  /* Active link styles */
+  .active {
+    color: rgb(90, 193, 173); /* Active link color */
+  }
+  /* Navbar button container styles */
+  .navbar-btn-cnt {
+    padding: 0 0 0 10px; /* Padding */
+  }
+  /* Donate button styles */
+  .donate-btn {
+    font-size: 16px; /* Font size */
+    font-weight: 500; /* Font weight */
+    background-color: white; /* Background color */
+    border: 2px solid rgb(104, 126, 142); /* Border */
+    color: rgb(118, 136, 148); /* Text color */
+    border-radius: 20px; /* Border radius */
+    padding: 6px 25px; /* Padding */
+  }
+  /* Hide mobile menu bar */
+  .mobile-menu-bar {
+    display: none; /* Hide */
+  }
+}
+/* Media query for screens up to 992px */
+@media (max-width: 992px) {
+  /* Navbar styles */
+  .navbar {
+    width: 100%; /* Full width */
+    padding: 0; /* Remove padding */
+  }
+  /* Header one styles */
+  .header-one {
+    width: 100%; /* Full width */
+    background-color: rgb(90, 193, 173); /* Set background color */
+  }
+  /* Header block styles */
+  .hdr-one-block,
+  .hdr-two-block {
+    width: 100%; /* Full width */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+  }
+  /* Header one block styles */
+  .hdr-one-block {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding */
+    justify-content: center; /* Center items horizontally */
+  }
+  /* Header business contact styles */
+  .hdr-bs-contact {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+  }
+  /* Header location container styles */
+  .hdr-location-cnt {
+    display: none; /* Hide */
+  }
+  /* Header mail container styles */
+  .hdr-mail-cnt {
+    display: flex; /* Use flexbox */
+    margin-left: 50px; /* Margin */
+  }
+  /* Header mail link styles */
+  .hdr-mail-link {
+    margin-left: 5px; /* Margin */
+  }
+  /* Header link styles */
+  .hdr-link {
+    text-decoration: none; /* Remove underline */
+    font-size: 14px; /* Font size */
+    font-weight: 400; /* Font weight */
+    color: white; /* Text color */
+  }
+  /* Header link hover styles */
+  .hdr-link:hover {
+    color: white; /* Text color on hover */
+  }
+  /* Hide social media container */
+  .hdr-social-media-cnt {
+    display: none; /* Hide */
+  }
+  /* Header two styles */
+  .header-two {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+    width: 100% !important; /* Full width */
+    padding: 0 1%; /* Padding */
+  }
+  /* Brand logo styles */
+  .brand-logo {
+    width: 40px; /* Width */
+  }
+  /* Navbar brand container styles */
+  .navbar-brand-cnt {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+    margin: 0 auto; /* Margin */
+  }
+  /* Navbar brand text container styles */
+  .navbar-brand-txt-cnt {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Column layout */
+  }
+  /* Brand text styles */
+  .brand-txt {
+    font-size: 20px; /* Font size */
+    font-weight: 700; /* Font weight */
+    color: rgb(90, 193, 173); /* Text color */
+    padding-bottom: 0; /* Padding */
+    margin: 0; /* Margin */
+  }
+  /* Brand text hover styles */
+  .brand-txt:hover {
+    color: rgb(90, 193, 173); /* Text color on hover */
+  }
+  /* Brand sub text styles */
+  .brand-sub-txt {
+    text-transform: uppercase; /* Uppercase text */
+    font-size: 8px; /* Font size */
+    font-weight: 700; /* Font weight */
+    color: rgba(77, 77, 77, 0.775); /* Text color */
+  }
+  /* Hide desktop navbar collapse */
+  .desktop-navbar-collapse {
+    display: none !important; /* Hide */
+  }
+  /* Navbar collapse styles */
+  .navbar-collapse {
+    display: flex; /* Use flexbox */
+    justify-content: flex-end; /* Align items to the end */
+    margin: 0 auto; /* Margin */
+  }
+  /* Navbar item styles */
+  .nav-item {
+    padding: 10px 2%; /* Padding */
+    margin-right: 20px; /* Margin */
+  }
+  /* Navbar link styles */
+  .nav-link {
+    font-size: 16px; /* Font size */
+    font-weight: 500; /* Font weight */
+    color: rgb(118, 136, 148); /* Text color */
+  }
+  /* Active link styles */
+  .active {
+    color: rgb(90, 193, 173); /* Active link color */
+  }
+  /* Navbar button container styles */
+  .navbar-btn-cnt {
+    padding: 0 0 0 10px; /* Padding */
+  }
+  /* Donate button styles */
+  .donate-btn {
+    font-size: 16px; /* Font size */
+    font-weight: 500; /* Font weight */
+    background-color: white; /* Background color */
+    border: 2px solid rgb(104, 126, 142); /* Border */
+    color: rgb(118, 136, 148); /* Text color */
+    border-radius: 20px; /* Border radius */
+    padding: 6px 25px; /* Padding */
+  }
+  /* Navbar toggler styles */
+  .navbar-toggler {
+    padding: 3px 10px !important; /* Padding */
+  }
+  /* Navbar toggler icon styles */
+  .navbar-toggler-icon {
+    width: 25px !important; /* Width */
+    height: 25px !important; /* Height */
+  }
+  /* Mobile contact link styles */
+  .mb-contact-link {
+    display: block !important; /* Display */
+    padding: 0 !important; /* Padding */
+  }
+  /* Navbar toggler and focus styles */
+  .navbar-toggler,
+  .navbar-toggler:focus {
+    border: none !important; /* Remove border */
+    box-shadow: none !important; /* Remove box shadow */
+    padding: 0 !important; /* Padding */
+  }
+  /* Hide navbar collapse */
+  .navbar-collapse {
+    display: none !important; /* Hide */
+  }
+  /* Mobile menu toggler styles */
+  .mobile-menu-toggler {
+    z-index: 10000; /* Z-index */
+  }
+  /* Mobile menu bar styles */
+  .mobile-menu-bar {
+    width: 75%; /* Width */
+    position: fixed; /* Fixed position */
+    left: 0; /* Left position */
+    top: 45px; /* Top position */
+    bottom: 0; /* Bottom position */
+    z-index: 9999; /* Z-index */
+    background-color: white; /* Background color */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    overflow-y: scroll; /* Allow vertical scroll */
+    transition: 0.5s; /* Transition */
+  }
+  /* Slide-in menu styles */
+  .slide-in-menu {
+    left: -100%; /* Hide the menubar off the left side of the screen */
+    transition: left 0.5s ease-out; /* Add a transition effect */
+  }
+  /* Show slide-in menu styles */
+  .slide-in-menu.show {
+    left: 0; /* Show the menubar */
+  }
+  /* Close navigation styles */
+  .close-nav {
+    font-size: 15px; /* Font size */
+  }
+  /* Mobile menu list styles */
+  .mb-menu-list {
+    padding: 0 !important; /* Padding */
+    margin: 0 !important; /* Margin */
+  }
+  /* Menu list styles */
+  .menu-list {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Align items vertically */
+    padding: 10px; /* Padding */
+  }
+  /* Mobile menu text styles */
+  .mb-menu-txt {
+    font-size: 14px; /* Font size */
+    font-weight: 700; /* Font weight */
+    margin: 0 10px !important; /* Margin */
+  }
+  /* Hide styles */
+  .hide {
+    display: none; /* Hide */
+  }
+  /* Social media styles */
+  .social-media {
+    display: flex; /* Use flexbox */
+    justify-content: space-evenly; /* Space items evenly */
+    align-items: center; /* Align items vertically */
+    padding: 10px; /* Padding */
+  }
+  /* Instagram link styles */
+  .instagram-link {
+    color: rgb(228, 64, 95); /* Text color */
+  }
+  /* Whatsapp link styles */
+  .whatsapp-link {
+    color: rgb(37, 211, 102); /* Text color */
+  }
+  /* News list item styles */
+  .news-list-item {
+    flex-direction: column; /* Column layout */
+    align-items: center; /* Align items vertically */
+  }
+  /* Mobile menu list item styles */
+  .mb-menu-list-item {
+    list-style-type: none; /* Remove list style */
+  }
+  /* Navbar link styles */
+  .nav-link {
+    color: rgb(118, 136, 148) !important; /* Text color */
+  }
+}
