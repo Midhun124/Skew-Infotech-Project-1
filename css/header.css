@@ -230,11 +230,12 @@ body {
   }
   /* Brand text styles */
   .brand-txt {
-    font-size: 20px; /* Font size */
+    font-size: 15px; /* Font size */
     font-weight: 700; /* Font weight */
     color: rgb(90, 193, 173); /* Text color */
     padding-bottom: 0; /* Padding */
     margin: 0; /* Margin */
+    padding-top: 0;
   }
   /* Brand text hover styles */
   .brand-txt:hover {
@@ -243,7 +244,7 @@ body {
   /* Brand sub text styles */
   .brand-sub-txt {
     text-transform: uppercase; /* Uppercase text */
-    font-size: 8px; /* Font size */
+    font-size: 5px; /* Font size */
     font-weight: 700; /* Font weight */
     color: rgba(77, 77, 77, 0.775); /* Text color */
   }

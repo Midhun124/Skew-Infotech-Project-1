@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/carousel.css">
   <title>Project 1</title>
 </head>
 <body class="close-menu">
@@ -103,6 +104,28 @@
   </header>
 
   <div id="mobileMenu" class="mobile-menu-bar slide-in-menu"></div>
+
+  <div class='carousel-container'>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="csl-img" src="images/Carousel-1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="csl-img" src="images/Carousel-2.jpg" alt="Second slide">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev prev-next-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <div class="prev-next-icon"><span class="carousel-control-prev-icon control-icon" aria-hidden="true"></span></div>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next prev-next-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <div class="prev-next-icon"><span class="carousel-control-next-icon control-icon" aria-hidden="true"></span></div>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
   
   <script src="js/header.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

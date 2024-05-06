@@ -1,0 +1,51 @@
+/* Media query for screens larger than or equal to 992px */
+@media (min-width: 992px) {
+  /* Carousel container styles */
+  .carousel-container {
+    width: 100%; /* Full width */
+    position: relative; /* Position relative */
+  }
+  /* Carousel item image styles */
+  .carousel-item .csl-img {
+    width: 100% !important; /* Full width */
+  }
+  /* Previous/Next button styles */
+  .prev-next-btn {
+    cursor: default !important; /* Default cursor */
+  }
+  /* Previous/Next icon styles */
+  .prev-next-icon {
+    padding: 10px 15px 7px; /* Padding */
+    border-radius: 50%; /* Border radius */
+    background-color: rgb(53, 67, 77); /* Background color */
+    cursor: pointer; /* Pointer cursor */
+  }
+} 
+/* Media query for screens smaller than 992px */
+@media (max-width: 992px) {
+  /* Carousel container styles */
+  .carousel-container {
+    width: 100%; /* Full width */
+    position: relative; /* Position relative */
+  }
+  /* Carousel item image styles */
+  .carousel-item .csl-img {
+    width: 100% !important; /* Full width */
+  }
+  /* Previous/Next button styles */
+  .prev-next-btn {
+    cursor: default !important; /* Default cursor */
+  }
+  /* Previous/Next icon styles */
+  .prev-next-icon {
+    padding: 3px 5px 0; /* Padding */
+    border-radius: 50%; /* Border radius */
+    background-color: rgb(53, 67, 77); /* Background color */
+    cursor: pointer; /* Pointer cursor */
+  }
+  /* Control icon styles */
+  .control-icon {
+    width: 20px; /* Width */
+    height: 20px; /* Height */
+  }
+}
