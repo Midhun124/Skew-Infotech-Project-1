@@ -1,0 +1,96 @@
+/* Media query for screens larger than or equal to 992px */
+@media (min-width: 992px) {
+  /* Category container styles */
+  .category-container {
+    width: 100%; /* Full width */
+    padding: 5%; /* Padding */
+  }
+  /* Category header container styles */
+  .cat-hd-cnt {
+    width: 100%; /* Full width */
+    padding: 1% 5%; /* Padding */
+    text-align: center; /* Center text */
+    color: rgb(56, 79, 93); /* Text color */
+  }
+  /* Category list container styles */
+  .cat-list-cnt {
+    width: 100%; /* Full width */
+    padding: 1%; /* Padding */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center items horizontally */
+  }
+  /* Category list styles */
+  .cat-list {
+    width: 20%; /* Width */
+    padding: 2% 1%; /* Padding */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Column layout */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    cursor: pointer; /* Pointer cursor */
+  }
+  /* Category list hover styles */
+  .cat-list:hover {
+    box-shadow: 1px 1px 10px rgb(231, 231, 231); /* Box shadow */
+    border-radius: 20px; /* Border radius */
+  }
+  /* Category list image styles */
+  .cat-list-img {
+    width: 50%; /* Width */
+  }
+  /* Category list text styles */
+  .cat-list-txt {
+    font-size: 18px; /* Font size */
+    padding: 8px 0; /* Padding */
+    color: rgb(102, 185, 168); /* Text color */
+    text-align: center; /* Center text */
+  }
+}
+/* Media query for screens smaller than 992px */
+@media (max-width: 992px) {
+  /* Category container styles */
+  .category-container {
+    width: 100%; /* Full width */
+    padding: 2%; /* Padding */
+  }
+  /* Category header container styles */
+  .cat-hd-cnt {
+    width: 100%; /* Full width */
+    padding: 1% 2%; /* Padding */
+    text-align: center; /* Center text */
+    color: rgb(56, 79, 93); /* Text color */
+  }
+  /* Category list container styles */
+  .cat-list-cnt {
+    width: 100%; /* Full width */
+    padding: 1%; /* Padding */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center items horizontally */
+  }
+  /* Category list styles */
+  .cat-list {
+    width: 20%; /* Width */
+    padding: 2% 1%; /* Padding */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Column layout */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    cursor: pointer; /* Pointer cursor */
+  }
+  /* Category list hover styles */
+  .cat-list:hover {
+    box-shadow: 1px 1px 10px rgb(231, 231, 231); /* Box shadow */
+    border-radius: 20px; /* Border radius */
+  }
+  /* Category list image styles */
+  .cat-list-img {
+    width: 50%; /* Width */
+  }
+  /* Category list text styles */
+  .cat-list-txt {
+    font-size: 8px; /* Font size */
+    padding: 5px 0; /* Padding */
+    color: rgb(102, 185, 168); /* Text color */
+    text-align: center; /* Center text */
+  }
+}

@@ -8,6 +8,7 @@
   /* Carousel item image styles */
   .carousel-item .csl-img {
     width: 100% !important; /* Full width */
+    height: 800px; /* the height */
   }
   /* Previous/Next button styles */
   .prev-next-btn {
