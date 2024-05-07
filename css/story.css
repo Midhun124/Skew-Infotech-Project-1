@@ -1,0 +1,198 @@
+/* Styles for desktop/tablet screens (min-width: 992px) */
+@media (min-width: 992px) {
+  /* Styles for story container */
+  .cmpy-story-container {
+    width: 100%;
+    height: 750px;
+    padding: 5%;
+    display: flex;
+    background-color: rgb(238, 248, 255);
+  }
+  /* Styles for image container */
+  .cmpy-story-img-cnt {
+    width: 50%;
+    padding: 2%;
+  }
+  /* Styles for story image */
+  .story-img {
+    width: 100%;
+    height: 540px;
+    border-radius: 20px;
+  }
+  /* Styles for text container */
+  .cmpy-story-txt-cnt {
+    width: 45%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  /* Styles for story text container */
+  .story-txt-cnt {
+    padding: 30px 50px;
+    border-radius: 20px;
+    background-color: rgb(254, 255, 255);
+  }
+  /* Styles for heading in story text */
+  .story-txt h1 {
+    margin-bottom: 10px;
+    color: rgb(90, 109, 123);
+  }
+  /* Styles for span in story text */
+  .story-txt span {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(90, 193, 173);
+  }
+  /* Styles for paragraph in story text */
+  .story-txt p {
+    font-size: 14px;
+    color: rgb(118, 136, 148);
+    margin: 20px 0;
+  }
+  /* Styles for sub container */
+  .cmpy-story-sub-cnt {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* Styles for sub text container */
+  .cmpy-story-sub-txt-cnt {
+    width: 45%;
+  }
+  /* Styles for point container */
+  .point-cnt {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  /* Styles for tick circle */
+  .tick-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(213, 213, 213);
+    color: rgb(118, 136, 148) !important;
+    font-size: 14px !important;
+  }
+  /* Styles for mission point text */
+  .mission-point-txt {
+    font-size: 14px !important;
+    color: rgb(118, 136, 148) !important;
+    margin: 0 !important;
+    padding-left: 10px;
+  }
+  /* Styles for value text */
+  .value-txt {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(90, 193, 173);
+  }
+  /* Styles for text display */
+  .txt-dsp {
+    font-size: 14px;
+    color: rgb(118, 136, 148);
+    margin-left: 3px;
+  }
+}
+/* Styles for mobile screens (max-width: 992px) */
+@media (max-width: 992px) {
+  /* Styles for story container */
+  .cmpy-story-container {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 248, 255);
+  }
+  /* Styles for image container */
+  .cmpy-story-img-cnt {
+    width: 100%;
+    padding: 2%;
+  }
+  /* Styles for story image */
+  .story-img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  /* Styles for text container */
+  .cmpy-story-txt-cnt {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* Styles for story text container */
+  .story-txt-cnt {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(254, 255, 255);
+    margin-bottom: 20px;
+  }
+  /* Styles for heading in story text */
+  .story-txt h1 {
+    margin-bottom: 10px;
+    color: rgb(90, 109, 123);
+  }
+  /* Styles for span in story text */
+  .story-txt span {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(90, 193, 173);
+  }
+  /* Styles for paragraph in story text */
+  .story-txt p {
+    font-size: 14px;
+    color: rgb(118, 136, 148);
+    margin: 20px 0;
+  }
+  /* Styles for sub container */
+  .cmpy-story-sub-cnt {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  /* Styles for sub text container */
+  .cmpy-story-sub-txt-cnt {
+    width: 100%;
+  }
+  /* Styles for point container */
+  .point-cnt {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  /* Styles for tick circle */
+  .tick-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(213, 213, 213);
+    color: rgb(118, 136, 148) !important;
+    font-size: 14px !important;
+  }
+  /* Styles for mission point text */
+  .mission-point-txt {
+    font-size: 14px !important;
+    color: rgb(118, 136, 148) !important;
+    margin: 0 !important;
+    padding-left: 10px;
+  }
+  /* Styles for value text */
+  .value-txt {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(90, 193, 173);
+  }
+  /* Styles for text display */
+  .txt-dsp {
+    font-size: 14px;
+    color: rgb(118, 136, 148);
+    margin-left: 3px;
+  }
+}
