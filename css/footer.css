@@ -1,0 +1,272 @@
+/* Styles for desktop/tablet screens (min-width: 992px) */
+@media (min-width: 992px) {
+  /* Styles for footer container */
+  .footer-container {
+    width: 100%;
+    display: flex;
+    background-color: rgb(89, 112, 129);
+    padding: 4% 5%;
+    margin-top: 50px;
+    position: relative;
+  }
+  /* Styles for form container */
+  .ft-form-cnt {
+    width: 50%;
+    padding: 0 2%;
+  }
+  /* Styles for heading in form */
+  .ft-form-cnt h2 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  /* Styles for form content container */
+  .ft-form-ctt-cnt {
+    width: 100%;
+    padding: 6%;
+    background-color: white;
+    border-radius: 30px;
+  }
+  /* Styles for paragraph in form content */
+  .ft-form-ctt-cnt p {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  /* Styles for form row */
+  .form-row {
+    width: 100%;
+    display: flex;
+  }
+  /* Styles for form row (desktop) */
+  .ft-row-d {
+    width: 50%;
+  }
+  /* Styles for form group */
+  .form-group {
+    margin: 3%;
+    position: relative;
+  }
+  /* Styles for input */
+  .input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(182, 204, 219);
+  }
+  /* Styles for input file */
+  .inputfile {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(182, 204, 219);
+    overflow: hidden;
+  }
+  /* Styles for upload icon */
+  .upload-icon {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+  /* Styles for button container */
+  .ft-btn-cnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Styles for submit button */
+  .ft-submit-button {
+    max-width: 520px;
+    width: 100%;
+    background-color: rgb(89, 112, 129);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+  }
+  /* Hover styles for submit button */
+  .ft-submit-button:hover {
+    background-color: #555;
+  }
+  /* Styles for volunteer container */
+  .ft-vol-container {
+    width: 40%;
+    padding: 0 5%;
+    text-align: center;
+    color: white;
+  }
+  /* Styles for volunteer image container */
+  .ft-vol-img-cnt {
+    width: 100%;
+    padding: 2%;
+  }
+  /* Styles for volunteer image */
+  .vol-img {
+    width: 50%;
+    border-radius: 50%;
+  }
+  /* Styles for volunteer text container */
+  .ft-vol-txt-cnt {
+    width: 100%;
+    padding: 50px 0;
+  }
+  /* Styles for volunteer heading container */
+  .ft-vol-hd-cnt {
+    padding-bottom: 30px;
+  }
+  /* Styles for volunteer display container */
+  .ft-vol-dsp-cnt p {
+    font-size: 14px;
+  }
+  /* Styles for decorative circle */
+  .ft-decorate-circle {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(90, 193, 173);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 100% 0 0 0;
+  }
+}
+/* Styles for mobile screens (max-width: 992px) */
+@media (max-width: 992px) {
+  /* Styles for footer container */
+  .footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(89, 112, 129);
+    padding: 4% 5%;
+    margin-top: 50px;
+    position: relative;
+  }
+  /* Styles for form container */
+  .ft-form-cnt {
+    width: 100%;
+    padding: 0 2%;
+  }
+  /* Styles for heading in form */
+  .ft-form-cnt h2 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  /* Styles for form content container */
+  .ft-form-ctt-cnt {
+    width: 100%;
+    padding: 6%;
+    background-color: white;
+    border-radius: 30px;
+  }
+  /* Styles for paragraph in form content */
+  .ft-form-ctt-cnt p {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  /* Styles for form row */
+  .form-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* Styles for form row (mobile) */
+  .ft-row-d {
+    width: 100%;
+  }
+  /* Styles for form group */
+  .form-group {
+    margin: 3%;
+    position: relative;
+  }
+  /* Styles for input */
+  .input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(182, 204, 219);
+  }
+  /* Styles for input file */
+  .inputfile {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(182, 204, 219);
+    overflow: hidden;
+  }
+  /* Styles for upload icon */
+  .upload-icon {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+  /* Styles for button container */
+  .ft-btn-cnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Styles for submit button */
+  .ft-submit-button {
+    max-width: 520px;
+    width: 100%;
+    background-color: rgb(89, 112, 129);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+  }
+  /* Hover styles for submit button */
+  .ft-submit-button:hover {
+    background-color: #555;
+  }
+  /* Styles for volunteer container */
+  .ft-vol-container {
+    width: 100%;
+    padding: 1% 5%;
+    text-align: center;
+    color: white;
+  }
+  /* Styles for volunteer image container */
+  .ft-vol-img-cnt {
+    width: 100%;
+    padding: 2%;
+  }
+  /* Styles for volunteer image */
+  .vol-img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* Styles for volunteer text container */
+  .ft-vol-txt-cnt {
+    width: 100%;
+    padding: 10px 0;
+  }
+  /* Styles for volunteer heading container */
+  .ft-vol-hd-cnt {
+    padding-bottom: 10px;
+  }
+  /* Styles for volunteer display container */
+  .ft-vol-dsp-cnt p {
+    font-size: 14px;
+  }
+  /* Styles for decorative circle (mobile) */
+  .ft-decorate-circle {
+    display: none;
+  }
+}
