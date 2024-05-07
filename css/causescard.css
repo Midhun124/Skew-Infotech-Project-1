@@ -2,6 +2,7 @@
   .causes-card-container {
     width: 100%;
     padding: 2% 5%;
+    z-index: 100;
   }
   .causes-card-container h1 {
     text-align: center;

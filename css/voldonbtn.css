@@ -1,0 +1,98 @@
+@media (min-width: 992px) {
+  .vol-don-btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(238, 248, 255);
+    padding: 5%;
+    position: relative;
+    box-sizing: content-box;
+  }
+  .vol-don-hd-cnt {
+    padding: 1%;
+    color: rgb(90, 109, 123);
+  }
+  .vol-don-btn-cnt {
+    display: flex;
+    padding: 1%;
+    align-items: center;
+  }
+  .don-btn-cnt {
+    margin-right: 30px;
+  }
+  .don-btn {
+    border: none;
+    background-color: transparent;
+    color: rgb(90, 109, 123);
+  }
+  .vol-btn {
+    border: none;
+    background-color: rgb(89, 112, 129);
+    color: white;
+    padding: 8px 25px 10px;
+    border-radius: 20px;
+  }
+  .vol-don-circle {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(90, 193, 173);
+    border-radius: 0 0 100% 0;
+  }
+  .vol-don-circle-two {
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 100% 100% 0 0;
+    border-top: 15px solid rgb(87, 113, 130);
+    border-right: 15px solid rgb(87, 113, 130);
+    border-left: 15px solid rgb(87, 113, 130);
+  }
+}
+@media (max-width: 992px) {
+  .vol-don-btn-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(238, 248, 255);
+    padding: 2%;
+    box-sizing: content-box;
+  }
+  .vol-don-hd-cnt {
+    width: 100%;
+    padding: 1%;
+    color: rgb(90, 109, 123);
+  }
+  .vol-don-btn-cnt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    align-items: center;
+  }
+  .don-btn-cnt {
+    margin-bottom: 10px;
+  }
+  .don-btn {
+    border: none;
+    background-color: transparent;
+    color: rgb(90, 109, 123);
+  }
+  .vol-btn {
+    border: none;
+    background-color: rgb(89, 112, 129);
+    color: white;
+    padding: 5px 10px 7px;
+    border-radius: 20px;
+  }
+  .vol-don-circle {
+    display: none;
+  }
+  .vol-don-circle-two {
+    display: none;
+  }
+}
