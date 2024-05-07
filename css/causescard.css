@@ -1,0 +1,175 @@
+@media (min-width: 992px) {
+  .causes-card-container {
+    width: 100%;
+    padding: 2% 5%;
+  }
+  .causes-card-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(90, 109, 123);
+  }
+  .card-container {
+    display: flex;
+    padding: 0 2%;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 33%;
+    border-radius: 20px;
+    margin: 0 1%;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card-img {
+    border-radius: 20px 20px 0 0;
+  }
+  .container {
+    padding: 0 !important;
+  }
+  .card-ctt-cnt {
+    padding: 35px 16px;
+  }
+  .card-ctt-cnt h4 {
+    color: rgb(90, 193, 173);
+  }
+  .card-ctt-cnt p {
+    font-size: 14px;
+    color: rgb(90, 109, 123);
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  .progress {
+    height: 8px;
+  }
+  .progress-bar {
+    background-color: rgb(89, 112, 129) !important;
+  }
+  .progress-value-cnt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pv-txt {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(89, 112, 129);
+  }
+  .pv-txt p {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 3px;
+  }
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(89, 112, 129);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+  }
+  .button:hover {
+    background-color: #555;
+  }
+}
+@media (max-width: 992px) {
+  .causes-card-container {
+    width: 100%;
+    padding: 2%;
+  }
+  .causes-card-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(90, 109, 123);
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1%;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 10px;
+    margin: 2% 0;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card-img {
+    border-radius: 10px 10px 0 0;
+  }
+  .container {
+    padding: 0 !important;
+  }
+  .card-ctt-cnt {
+    padding: 35px 16px;
+  }
+  .card-ctt-cnt h4 {
+    color: rgb(90, 193, 173);
+  }
+  .card-ctt-cnt p {
+    font-size: 14px;
+    color: rgb(90, 109, 123);
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  .progress {
+    height: 8px;
+  }
+  .progress-bar {
+    background-color: rgb(89, 112, 129) !important;
+  }
+  .progress-value-cnt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pv-txt {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(89, 112, 129);
+  }
+  .pv-txt p {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 3px;
+  }
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(89, 112, 129);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+  }
+  .button:hover {
+    background-color: #555;
+  }
+}
